@@ -1,8 +1,29 @@
 <!DOCTYPE html>
-<style>
+  <style>
   .logo-image {
-    height: 150px;
-    width: 165px;
+    display: block;
+    height: 100px;
+    max-width: 140px;
+  }
+  header {
+    min-height: 100px;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+  }
+  ul {
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  li {
+    list-style: none;
+    
   }
 </style>
 <html>
@@ -11,8 +32,8 @@
   <title>Baja Wine Tours by Vino Tinto Tours</title>
 </head>
 <header>
-  <img class=logo-image src="./images/HomePage/VinoTintoTours-100.jpg" alt="Vino Tinto Tours Logo">
-  <nav>
+  <img class=logo-image id="logo" src="./images/HomePage/VinoTintoTours-100.jpg" alt="Vino Tinto Tours Logo">
+  <nav id="nav-bar">
     <ul>
       <li><a href="#home">HOME</a></li>
       <li><a href="#about">ABOUT</a></li>
