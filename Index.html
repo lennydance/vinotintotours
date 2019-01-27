@@ -1,8 +1,36 @@
 <!DOCTYPE html>
+<style>
+  .logo-image {
+    display: block;
+    height: 100px;
+    max-width: 140px;
+  }
+  header {
+    min-height: 100px;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+  }
+  ul {
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  li {
+    list-style: none;
+  }
+  #banner-pic {
+    max-width: 100vw
+  }
+</style>
 <html>
 <head>
   <title>Baja Wine Tours by Vino Tinto Tours</title>
-  <link href="Wine_Tour_Style_Sheet.css" rel="stylesheet" type="text/css">
 </head>
 <header>
   <img class=logo-image id="logo" src="./images/HomePage/VinoTintoTours-100.jpg" alt="Vino Tinto Tours Logo">
@@ -18,7 +46,7 @@
 </header>
 
 <body>
-  <img src="./images/homepage/VinoTintoTours-El-Cielo-Tasting-Room.jpg" alt="Picture of the Tasting Room At El Cielo">
+  <img src="./images/homepage/VinoTintoTours-El-Cielo-Tasting-Room.jpg" alt="Picture of the Tasting Room At El Cielo" id="banner-pic">
   <h2>"WINE IS BOTTLED POETRY."-ROBERT LOUIS STEVENSON</h2>
   <h1 id="about">Vino Tinto Tours</h1>
   <h2>PROVIDING CUSTOM WINE TOURS THROUGH THE GUADALUPE VALLEY WINE COUNTRY
