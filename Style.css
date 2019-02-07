@@ -1,3 +1,5 @@
+/* Top of page*/
+
 .logo-image {
   display: block;
   height: 100px;
@@ -5,7 +7,7 @@
 }
 header {
   min-height: 100px;
-  display: flex;
+  display: inline;
   position: fixed;
   background-color: white;
   top: 0;
@@ -13,21 +15,32 @@ header {
   left: 0;
   align-items: center;
 }
-ul {
+/* #nav-bar {
   width: 45vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}*/
+.nav-bar-ul {
+  position: fixed;
+  top: 5px;
+  left: 40px;
 }
-li {
-  list-style: none;
+.nav-li {
+  list-style-type: none;
+  margin: 0;
+  display: inline-block;
 }
+
+/* Body stylings*/
+
 .banner-img {
   max-width: 100vw;
-
 }
+
+/* About us */
+
 #sun-vines-merlot-img {
   max-width: 50vw;
-  border-radius: 20px;
-
+  border-radius: 45px;
 }
