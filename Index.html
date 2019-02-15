@@ -7,7 +7,7 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <header>
-    <section id="page-top">
+    <div>
         <nav id="nav-bar">
             <img class=logo-image id="logo" src="./images/HomePage/VinoTintoTours-100.jpg" alt="Vino Tinto Tours Logo">
             <ul id="nav-bar-ul">
@@ -18,24 +18,24 @@
                 <li class="nav-li"><a id="nav-anchor" href="#contact">CONTACT</a></li>
             </ul>
         </nav>
-    </section>
+    </div>
 </header>
 
 <body>
-    <section id="page-top">
+    <div id="page-top">
         <div id="pagetop-img">
             <div id="pagetop-text">
-                <h2>"WINE IS BOTTLED POETRY."</h2><p>-ROBERT LOUIS STEVENSON</p>
-                <button>CONTACT US</button>
+                <h2>"WINE IS BOTTLED POETRY."</h2><p id="pagetop-quote">-ROBERT LOUIS STEVENSON</p>
+                <a href="#contact" id="pagetop-contact-button">CONTACT US</a>
             </div>
         </div>
         <!--<img src="./images/homepage/VinoTintoTours-El-Cielo-Tasting-Room.jpg" alt="Picture of the Tasting Room At El Cielo" class="pagetop-img">-->
-    </section>
+    </div>
     <section id="about-us">
 
-        <h1 id="about">Vino Tinto Tours</h1>
-        <h2>PROVIDING CUSTOM WINE TOURS THROUGH THE GUADALUPE VALLEY WINE COUNTRY
-            NORTHERN BAJA CALIFORNIA</h2>
+        <h1 id="about">VINO TINTO TOURS</h1>
+        <h2>PROVIDING CUSTOM WINE TOURS THROUGH THE GUADALUPE VALLE  WINE COUNTRY
+        NORTHERN BAJA CALIFORNIA</h2>
         <img src="./images/homepage/VinoTintoTours-Merlot-Vines-Sun-Peeking-Through.jpg" id="sun-vines-merlot-img">
         <p>The quality and variety of the vineyards in the Guadalupe Valley of Northern Baja California are grossly underestimated and regrettably undiscovered by many who come here to tour the Wine Country. In an effort to maximize profit, many
             Tour
@@ -47,19 +47,23 @@
     <section id="vinyards">
         <h2 class="section-header">VINEYARDS</h2>
         <h3>OF THE GUADALUPE VALLEY</h3>
-        <h2 id="pricing">PRICING</h2>
-        <h2 id="contact">CONTACT</h2>
+    </section>
+    <section id="pricing">
+        <h2 class="section-header">PRICING</h2>
+    </section>
+    <section id="contact">
+        <h2 class="section-header">CONTACT</h2>
         <h3>WE ARE AVAILABLE TO ANSWER ANY QUESTIONS<br>(619) 900-4656</h3>
         <p>Vino Tinto is Spanish for Red Wine and represents all that is rich in experience. We are happy to provide wine tours that guide you to a rich experience through the Guadalupe Valley of Northern Baja.</p>
-        <ul>
-            <li>Tours Scheduled Monday through Saturday</li>
+        <ul id="advantages-list">
+            <li>Tours Scheduled Monday through Sunday</li>
             <li>Our price is competitive</li>
             <li>Our drivers are knowledgeable</li>
             <li>Our vehicles are comfortable</li>
             <li>The vineyards are plentiful</li>
             <li>And the wine is flowing</li>
         </ul>
-        <p>Hours of Operation: Monday - Saturday 10 AM to 7 PM<br>Contact us to schedule your tour!
+        <p id="page-closer">Hours of Operation: Monday - Saturday 10 AM to 7 PM<br>Contact us to schedule your tour!
             <form action="/name">
                 <input type="text" placeholder="Enter Name" </form> <form action"/email"> <input type="text" placeholder="Enter Email">
             </form>
@@ -68,6 +72,7 @@
             </form>
             <button type="submit">Submit
             </button>
+        </section>
 </body>
 
 </html>
