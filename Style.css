@@ -126,12 +126,15 @@ body {
     text-align: center;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     letter-spacing: 2px;
     word-spacing: 5px;
-    max-width: 75vw;
     text-align: center;
     display: inline-block;
+}
+
+.section-header {
+    text-align: center;
 }
 
 p {
@@ -146,6 +149,24 @@ p {
 
 section {
     margin-bottom: 200px;
+}
+.banner-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.banner-img {
+    max-height: 800px;
+    min-height: 400px;*/
+    height: 40vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
 /* Home Page */
@@ -186,12 +207,34 @@ section {
 }
 
 /* About us */
+#tagline {
+    max-width: 75vw;
+}
+
 #sun-vines-merlot-img {
     max-width: 50vw;
     border-radius: 45px;
 }
 
+/* Vineyards */
+#vineyards-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/homepage/VinoTintoTours-Guadalupe-Wine-Valley.jpg);
+}
+
+#vineyards-text2 {
+    display: block;
+    margin-top: -20px;
+}
+
+/* Pricing */
+#pricing-img {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/homepage/VinoTintoTours-Dona-Lupe-Vines.jpg);
+}
+
 /* Contact Us */
+#contact-us-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/homepage/VinoTintoTours-Vines-at-Encuentro-Vineyard.jpg);
+}
 #advantages-list {
     max-width: 40vw;
     text-align: left;
