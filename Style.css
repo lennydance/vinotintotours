@@ -223,7 +223,18 @@ section {
 
 #vineyards-text2 {
     display: block;
-    margin-top: -20px;
+}
+
+.gallery-container {
+
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap: 20px 40px
+    justify-content: center;
+}
+
+.vineyard-image {
+
 }
 
 /* Pricing */
