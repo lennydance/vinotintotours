@@ -249,10 +249,19 @@ section {
 
 .gallery-container {
 
-    display: grid;
+    /*display: grid;
     grid-template-columns: 25% 25% 25%;
     grid-gap: 20px 40px
+    justify-content: center;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    max-width: 75vw;
+    margin: 0 auto;
+    padding: 20px 10px;
+    gap: 10px 120px;
 }
 
 .vineyard-image {
