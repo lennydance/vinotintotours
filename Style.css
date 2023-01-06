@@ -118,6 +118,17 @@ header {
     color: black;
 }
 
+/* #phone needs to be right aligned and above nav buttons */
+
+#phone {
+
+}
+
+/* Nav buttons need to be outlined (black) */
+/* Nav buttons need to change color when active (dark grey with white font */
+/* Nav buttons need to change color when hovered over (medium grey) */
+/* Nav buttons need to be grouped on 60% of the nav bar to the right */
+
 .nav-li {
     list-style-type: none;
     display: inline-block;
