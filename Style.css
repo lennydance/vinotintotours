@@ -260,6 +260,9 @@ section {
 
 .gallery-container {
 
+    /* Consider using a flexbox... Review "Learn CSS flexbox" from Free Code Camp.
+    especially lesson 17 and the "object-fit: cover" property.  May come in handy instead of having to always clip each photo for this gallery.*/
+
     /*display: grid;
     grid-template-columns: 25% 25% 25%;
     grid-gap: 20px 40px
