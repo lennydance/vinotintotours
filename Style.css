@@ -130,10 +130,23 @@ header {
 /* Nav buttons need to be grouped on 60% of the nav bar to the right */
 
 .nav-li {
+    /* This was a first attempt to propertly space nav buttons.  Didn't work.
     list-style-type: none;
     display: inline-block;
     margin-top: 50px;
-    margin-right: 5vw;
+    margin-right: 5vw;*/
+    /* This is second attempt. Just copied and pasted from FCC Responsive
+        Web Design > Accessibility > Lesson 51 lines 39 to 45  
+        
+        This is an improvement but still not quite right.  Buttons cover too large an area on the header. They need to shift to the right and closer together instead of creating a second row so quickly.*/
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    /* END of copy and paste. Add additional attributes below */
 }
 
 /* Body stylings*/
